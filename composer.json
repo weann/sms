@@ -1,0 +1,13 @@
+{
+    "name": "weann/sms",
+    "description": "SMS library",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sms\\": "src/"
+        }
+    }
+}
